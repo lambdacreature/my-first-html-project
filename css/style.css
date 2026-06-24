@@ -7,7 +7,6 @@ body {
 h1 {
   font-size: 7rem;
   font-family: sans-serif;
-  color: #4676A9;
   text-align: center;
   line-height: 1.1;
 }
@@ -15,13 +14,6 @@ h1 {
 h2 {
   font-size: 2.5rem;
   color: #CB731C;
-}
-
-footer {
-  text-align: center;
-  color: #FFFFFF;
-  background-color: #22466C;
-  padding: 1rem;
 }
 
 header {
@@ -32,7 +24,39 @@ section {
   margin-block: 3rem;
 }
 
-p {
-    border: groove 50px rebeccapurple;
-  background-color: red;
+.teal-bg {
+  border: solid 7px #0B4A5A;
+  color: #FFFFFF;
+  background-color: #087A98;
+  padding-inline: 20px;
+  padding-block: 0px;
 }
+
+footer {
+  text-align: center;
+}
+
+.teal-text {
+  color: #087A98; 
+}
+
+a {
+  color: #2B930B;
+}
+
+a:hover,
+a:focus-visible {
+  color: #5F9B9F;
+}
+
+.climber-bg {
+  background-image: url("../images/simple-steps.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-inline: 50px;
+  padding-block: 10px;
+  border: solid 7px #087A98;
+}
+
+
