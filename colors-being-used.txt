@@ -1,4 +1,0 @@
-blue:      #4676A9
-orange:    #CB731C 
-dark blue: #22466C
-white:     #FFFFFF

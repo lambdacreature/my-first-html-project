@@ -1,4 +1,0 @@
-solo se puede tener un <h1> </h1> por pagina HTML
-
-el nivel maximo de anidamiento de encabezados que se puede tener es <h6>
-aunque lo mas normal es ver hasta <h3>, raramente se ve <h4>

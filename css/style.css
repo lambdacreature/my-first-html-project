@@ -77,15 +77,33 @@ a:focus-visible {
 .twoColumnLayout {
   display: grid;
   gap: 50px;
-  grid-template-columns: 1fr 1fr;
-  margin-block: 50px;
-}
-.primary-navigation ul {
-  display: flex;
-  gap: 30px;
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
+  @media (width > 600px) {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
+.primary-navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.primary-navigation a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.primary-navigation a:hover,
+.primary-navigation a:focus-visible {
+  color: #5F9B9F;
+}
+
+section .teal-bg {
+  margin-block-start: 40px;
+}
+
+section img {
+  margin-block-start: 40px;
+}
 
